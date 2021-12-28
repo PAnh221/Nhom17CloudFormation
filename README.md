@@ -1,13 +1,13 @@
 # AWS CloudFormation
 ## Template:
 Template là bản thiết kế để xây dựng cái tài nguyên. Một template cơ bản sẽ có các thành phần:
-●	Resources: các tài nguyên cơ bản
-●	Metadata: cung cấp thông tin về cách triển khai các tài nguyên cụ thể
-●	Parameters: là đặc tính của tài nguyên đó
-●	Type: ánh xạ với các tài nguyên cần tạo
-●	Properties: là đặc tính của tài nguyên đó
-●	Mappings: Ánh xạ các key và các giá trị liên quan có thể sử dụng để chỉ định các giá trị tham số có điều kiện
-●	Outputs:Mô tả các giá trị được trả về bất cứ khi nào cần xem các properties của stack của mình
+- Resources: các tài nguyên cơ bản.
+- Metadata: cung cấp thông tin về cách triển khai các tài nguyên cụ thể.
+- Parameters: là đặc tính của tài nguyên đó.
+- Type: ánh xạ với các tài nguyên cần tạo.
+- Properties: là đặc tính của tài nguyên đó.
+- Mappings: Ánh xạ các key và các giá trị liên quan có thể sử dụng để chỉ định các giá trị tham số có điều kiện.
+- Outputs:Mô tả các giá trị được trả về bất cứ khi nào cần xem các properties của stack của mình.
 
 ### Các thuộc tính level cao nhất quan trọng nhất của một template CloudFormation là các Parameter và Resources. 
 
